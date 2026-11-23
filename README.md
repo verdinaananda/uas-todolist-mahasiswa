@@ -17,14 +17,6 @@ Aplikasi To-Do List Mahasiswa merupakan aplikasi sederhana berbasis TypeScript y
 | Zayan | Melihat daftar tugas (Read) dan mencari tugas (Search) |
 | Difenza | Mengubah tugas (Update) dan menghapus tugas (Delete) |
 
-## Fitur Aplikasi
-- Menambahkan tugas kuliah
-- Melihat daftar tugas
-- Mengubah tugas
-- Menghapus tugas
-- Mencari tugas
-- Melihat rekap tugas
-
 ## Teknologi yang Digunakan
 - TypeScript
 - Node.js
@@ -37,5 +29,18 @@ Aplikasi To-Do List Mahasiswa merupakan aplikasi sederhana berbasis TypeScript y
 - Perencanaan fitur aplikasi
 - Persiapan pembuatan program
 
-## Tujuan
+## Dokumen Proposal Singkat
+1. Deskripsi Masalah
+   
+Aplikasi Manajemen Tugas Mahasiswa merupakan program berbasis terminal yang dikembangkan menggunakan TypeScript. Aplikasi ini dibuat untuk membantu mahasiswa mengelola berbagai tugas kuliah agar lebih terorganisir dan mudah dipantau. Aplikasi ini dilatarbelakangi oleh permasalahan pencatatan tugas yang masih tersebar di berbagai tempat, seperti chat grup, catatan ponsel, maupun kertas. Hal tersebut dapat menyebabkan mahasiswa lupa terhadap tugas yang harus dikerjakan atau melewatkan batas waktu pengumpulan. Melalui aplikasi ini, mahasiswa dapat menyimpan dan mengelola data tugas secara terstruktur, mulai dari menambahkan, melihat, mengubah, menghapus, hingga mencari tugas. Aplikasi juga menyediakan fitur rekap untuk mengetahui perkembangan penyelesaian tugas.
+
+2. Tujuan
 Aplikasi ini dibuat untuk mempermudah mahasiswa dalam mengatur tugas kuliah agar tugas yang harus dikerjakan dapat tercatat dan tidak mudah terlupakan.
+
+3. Fitur Aplikasi
+- Menambahkan tugas kuliah
+- Melihat daftar tugas
+- Mengubah tugas
+- Menghapus tugas
+- Mencari tugas
+- Melihat rekap tugas
