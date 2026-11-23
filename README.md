@@ -13,9 +13,9 @@ Aplikasi To-Do List Mahasiswa merupakan aplikasi sederhana berbasis TypeScript y
 ## Pembagian Tugas
 | Anggota | Tugas |
 |---|---|
-| Verdina | Menu utama dan fitur tambah tugas (Create) |
-| Zayan | Melihat daftar tugas (Read) dan mencari tugas (Search) |
-| Difenza | Mengubah tugas (Update) dan menghapus tugas (Delete) |
+| Verdina | Fitur Delete, Search, integrasi program, operator, dan penyusunan README |
+| Zayan | Fitur Read, Update, flowchart, serta penyusunan laporan Problem Solving dan Computational Thinkin |
+| Difenza | Setup repository, struktur data, fitur Create, validasi input, dan operator |
 
 ## Dokumen Proposal Singkat
 
