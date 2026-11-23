@@ -7,7 +7,7 @@ Aplikasi To-Do List Mahasiswa merupakan aplikasi sederhana berbasis TypeScript y
 | No | Nama | NIM | GitHub |
 |---|---|---|---|
 | 1 | Verdina Ananda Putri | 263140701111060 | @verdinaananda |
-| 2 | Zayan | 263140701111065  | @Myisha-07  |
+| 2 | Myisha Zayan Aqila | 263140701111065  | @Myisha-07  |
 | 3 | Difenza | 263140701111038  | @Farrosy29 |
 
 ## Pembagian Tugas
