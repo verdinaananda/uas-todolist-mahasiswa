@@ -33,6 +33,16 @@ Aplikasi ini dibuat untuk mempermudah mahasiswa dalam mengatur tugas kuliah agar
 - Mencari tugas
 - Melihat rekap tugas
 
+### Entitas Data & Properti (`Tugas`)
+Data disimpan di dalam memori menggunakan struktur *array of object* (`Tugas[]`) dengan properti sebagai berikut:
+* `id` (`string`): Kode unik tugas (contoh: `"TGS-001"`).
+* `judul` (`string`): Nama atau judul tugas kuliah.
+* `mataKuliah` (`string`): Nama mata kuliah terkait.
+* `deadline` (`string`): Tanggal batas waktu pengumpulan tugas (contoh: `"2026-11-30"`).
+* `prioritas` (`number`): Tingkat prioritas tugas (`1` = Tinggi, `2` = Sedang, `3` = Rendah).
+* `estimasiJam` (`number`): Perkiraan waktu pengerjaan tugas dalam satuan jam.
+* `selesai` (`boolean`): Status penyelesaian tugas (`true` = Selesai, `false` = Belum Selesai).
+
 ## Teknologi yang Digunakan
 - TypeScript
 - Node.js
