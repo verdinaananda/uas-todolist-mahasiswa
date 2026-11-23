@@ -18,14 +18,17 @@ Aplikasi To-Do List Mahasiswa merupakan aplikasi sederhana berbasis TypeScript y
 | Difenza | Mengubah tugas (Update) dan menghapus tugas (Delete) |
 
 ## Dokumen Proposal Singkat
+
 1. Deskripsi Masalah
    
 Aplikasi Manajemen Tugas Mahasiswa merupakan program berbasis terminal yang dikembangkan menggunakan TypeScript. Aplikasi ini dibuat untuk membantu mahasiswa mengelola berbagai tugas kuliah agar lebih terorganisir dan mudah dipantau. Aplikasi ini dilatarbelakangi oleh permasalahan pencatatan tugas yang masih tersebar di berbagai tempat, seperti chat grup, catatan ponsel, maupun kertas. Hal tersebut dapat menyebabkan mahasiswa lupa terhadap tugas yang harus dikerjakan atau melewatkan batas waktu pengumpulan. Melalui aplikasi ini, mahasiswa dapat menyimpan dan mengelola data tugas secara terstruktur, mulai dari menambahkan, melihat, mengubah, menghapus, hingga mencari tugas. Aplikasi juga menyediakan fitur rekap untuk mengetahui perkembangan penyelesaian tugas.
 
 2. Tujuan
+   
 Aplikasi ini dibuat untuk mempermudah mahasiswa dalam mengatur tugas kuliah agar tugas yang harus dikerjakan dapat tercatat dan tidak mudah terlupakan.
 
 3. Fitur Aplikasi
+
 - Menambahkan tugas kuliah
 - Melihat daftar tugas
 - Mengubah tugas
@@ -33,7 +36,7 @@ Aplikasi ini dibuat untuk mempermudah mahasiswa dalam mengatur tugas kuliah agar
 - Mencari tugas
 - Melihat rekap tugas
 
-### Entitas Data & Properti (`Tugas`)
+4. Entitas Data & Properti (`Tugas`)
 Data disimpan di dalam memori menggunakan struktur *array of object* (`Tugas[]`) dengan properti sebagai berikut:
 * `id` (`string`): Kode unik tugas (contoh: `"TGS-001"`).
 * `judul` (`string`): Nama atau judul tugas kuliah.
@@ -43,13 +46,13 @@ Data disimpan di dalam memori menggunakan struktur *array of object* (`Tugas[]`)
 * `estimasiJam` (`number`): Perkiraan waktu pengerjaan tugas dalam satuan jam.
 * `selesai` (`boolean`): Status penyelesaian tugas (`true` = Selesai, `false` = Belum Selesai).
 
-## Teknologi yang Digunakan
+5. Teknologi yang Digunakan
 - TypeScript
 - Node.js
 - Git
 - GitHub
 
-## Progress Pengerjaan
+6. Progress Pengerjaan
 - Pembuatan repository GitHub
 - Penyusunan README dan pembagian tugas
 - Perencanaan fitur aplikasi
