@@ -1,0 +1,14 @@
+{
+  "name": "uas-todolist-mahasiswa",
+  "version": "1.0.0",
+  "description": "Aplikasi Console To-Do List Mahasiswa berbasis TypeScript",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
