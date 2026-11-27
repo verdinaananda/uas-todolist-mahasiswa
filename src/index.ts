@@ -55,3 +55,30 @@ function getLabelPrioritas(prioritas: number): string {
 
   return label;
 }
+
+// Fungsi untuk menentukan status urgensi tugas berdasarkan sisa hari dan status selesai
+function getStatusUrgensi(deadline: string, selesai: boolean): string {
+  const sisa: number = hitungSisaHari(deadline);
+
+  // Mengecek status selesai dan sisa hari menggunakan operator perbandingan (===, <, <=)
+  if (selesai === true) {
+    return "Selesai";
+  } else if (sisa < 0) {
+    return "Terlambat";
+  } else if (sisa <= 2) {
+    return "Mendesak";
+  } else {
+    return "Aman";
+  }
+}
+
+// Fungsi kerangka untuk menampilkan seluruh daftar tugas
+function tampilkanSemuaTugas(): void {
+  console.log("\n[Info] Fitur Read (Lihat Semua Tugas) siap dikembangkan pada Progress 4.");
+}
+
+// Fungsi kerangka untuk mengubah data tugas berdasarkan ID
+function ubahTugasById(id: string): boolean {
+  console.log(`\n[Info] Fitur Update untuk ID ${id} siap dikembangkan pada Progress 5.`);
+  return false;
+}
